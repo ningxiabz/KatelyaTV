@@ -133,8 +133,8 @@ docker compose -f docker-compose.redis.yml up -d
 
 ```bash
 # 1. 下载配置文件
-curl -O https://raw.githubusercontent.com/katelya77/KatelyaTV/main/docker-compose.kvrocks.yml
-curl -O https://raw.githubusercontent.com/katelya77/KatelyaTV/main/.env.kvrocks.example
+curl -O https://raw.githubusercontent.com/ningxiabz/KatelyaTV/main/docker-compose.kvrocks.yml
+curl -O https://raw.githubusercontent.com/ningxiabz/KatelyaTV/main/.env.kvrocks.example
 
 # 2. 配置环境变量
 cp .env.kvrocks.example .env
