@@ -100,8 +100,8 @@ docker run -d \
 
 ```bash
 # 1. 下载配置文件
-curl -O https://raw.githubusercontent.com/katelya77/KatelyaTV/main/docker-compose.redis.yml
-curl -O https://raw.githubusercontent.com/katelya77/KatelyaTV/main/.env.redis.example
+curl -O https://raw.githubusercontent.com/ningxiabz/KatelyaTV/main/docker-compose.redis.yml
+curl -O https://raw.githubusercontent.com/ningxiabz/KatelyaTV/main/.env.redis.example
 
 # 2. 配置环境变量
 cp .env.redis.example .env
